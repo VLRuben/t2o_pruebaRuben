@@ -1,0 +1,11 @@
+version: 3.0
+
+services:
+  serverweb1: 
+    build: .
+    ports:
+      - "8555:80"
+  serverweb2:
+    build: .
+    ports:
+      - "8555:80"
